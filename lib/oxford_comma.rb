@@ -17,11 +17,9 @@ def oxford_comma(array)
     string = ""
     array.each do |fruit|
       if array.index(fruit) < array.size - 1
-        string << fruit
-        string << ", "
+        string << "#{fruit}, "
       else
-        string << "and "
-        string << fruit
+        string << "and #{fruit}"
       end
     end
       string
