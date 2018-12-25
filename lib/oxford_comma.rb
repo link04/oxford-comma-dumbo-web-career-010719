@@ -8,6 +8,7 @@ def oxford_comma(array)
     array.each do |fruit|
       if fruit.index < 2
         string << fruit
+        string << ", "
       else
   end
 end
