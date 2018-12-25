@@ -8,10 +8,10 @@ def oxford_comma(array)
     array.each do |fruit|
       if array.index(fruit) < 2
         string << fruit + ", "
-        string << 
+     
       else
-        string << "and "
-        string << fruit
+        string << "and #{fruit}"
+        string << 
       end
     end
    string
