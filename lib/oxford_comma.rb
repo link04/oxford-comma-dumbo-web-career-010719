@@ -10,5 +10,7 @@ def oxford_comma(array)
         string << fruit
         string << ", "
       else
+        string << fruit
+        string << ", "
   end
 end
