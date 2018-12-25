@@ -14,21 +14,17 @@ def oxford_comma(array)
         string << fruit
       end
       string
-    
-    
-    elsif array.size == 3
-  string = ""
-  array.each do |fruit|
-    if array.index(fruit) < 2
-      string << fruit
-      string << ", "
-    else
-      string << "and "
-      string << fruit
+  elsif array.size == 3
+    string = ""
+    array.each do |fruit|
+      if array.index(fruit) < 2
+        string << fruit
+        string << ", "
+      else
+        string << "and "
+        string << fruit
+      end
     end
+      string
   end
-    string
-end
-  end
-  
 end
