@@ -18,7 +18,7 @@ def oxford_comma(array)
   elsif array.size > 3
     string = ""
     array.each do |fruit|
-      if array.index(fruit) < 3
+      if array.index(fruit) < array.size - 1
         string << fruit
         string << ", "
       else
