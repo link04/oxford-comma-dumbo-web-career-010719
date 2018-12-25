@@ -14,6 +14,7 @@ def oxford_comma(array)
         string << fruit
       end
       string
+    end
   elsif array.size > 3
     string = ""
     array.each do |fruit|
