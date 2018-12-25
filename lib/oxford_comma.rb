@@ -6,6 +6,7 @@ def oxford_comma(array)
   elsif array.size == 3
     string = ""
     array.each do |fruit|
+      if fruit.index < 2
       string << fruit
   end
 end
