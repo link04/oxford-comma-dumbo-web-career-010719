@@ -13,5 +13,6 @@ def oxford_comma(array)
         string << " and "
         string << fruit
       end
+      string
   end
 end
